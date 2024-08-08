@@ -1,0 +1,14 @@
+{
+  "name": "aspen_xml",
+  "version": "1.0.0",
+  "description": "convert test from xml to json",
+  "main": "server",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "author": "elemento.",
+  "license": "MIT",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
