@@ -1,0 +1,41 @@
+<component>
+
+    <section>
+        <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.23" />
+        <templateId root="2.16.840.1.113883.10.20.22.2.23" />
+        <id root="58425d02-28cb-41c9-b0b9-348938ac6773" />
+        <code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+            displayName="Medical Equipment" />
+        <title>Medical Equipment</title>
+        <text> None Reported. </text>
+        <entry>
+            <procedure classCode="PROC" moodCode="EVN">
+                <templateId extension="2014-06-09"
+                    root="2.16.840.1.113883.10.20.22.4.14" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+                <id root="a82dfb86-c1de-4752-b748-9dc6d914d6cf" />
+                <code code="71388002" codeSystem="2.16.840.1.113883.6.96"
+                    displayName="Procedure" />
+                <text>
+                    <reference value="#Proc" />
+                </text>
+                <statusCode code="completed" />
+                <effectiveTime nullFlavor="NA" />
+                <participant typeCode="DEV">
+                    <participantRole classCode="MANU">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.37" />
+                        <id nullFlavor="NA" root="2.16.840.1.113883.3.3719" />
+                        <playingDevice>
+                            <code code="40388003" codeSystem="2.16.840.1.113883.6.96"
+                                codeSystemName="SNOMED CT" displayName="Implant" />
+                        </playingDevice>
+                        <scopingEntity>
+                            <id root="2.16.840.1.113883.3.3719" />
+                        </scopingEntity>
+                    </participantRole>
+                </participant>
+            </procedure>
+        </entry>
+    </section>
+
+</component>

@@ -1,0 +1,56 @@
+<component>
+
+    <section> <!-- Health Concern section -->
+        <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.58" />
+        <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+            displayName="Health Concerns Document" />
+        <title>Health Concerns Section</title>
+        <text>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Related Observation</th>
+                        <th>LastModified by</th>
+                        <th>Organization Details</th>
+                        <th>LastModified Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>None Recorded</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Concern</th>
+                        <th>Status</th>
+                        <th>LastModified by</th>
+                        <th>Organization Details</th>
+                        <th>LastModified Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>None Recorded</td>
+                        <td />
+                        <td />
+                        <td />
+                    </tr>
+                </tbody>
+            </table>
+        </text>
+        <entry> <!-- Health Concern Act -->
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01"
+                    root="2.16.840.1.113883.10.20.22.4.132" />
+                <id root="d0e7c48a-3946-4bc5-9391-4da53160f67b" />
+                <code code="75310-3" codeSystem="2.16.840.1.113883.6.1"
+                    codeSystemName="LOINC" displayName="Health Concern" />
+                <statusCode code="completed" />
+            </act>
+        </entry>
+    </section>
+
+</component>

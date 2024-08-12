@@ -1,0 +1,143 @@
+<component>
+
+    <section>
+        <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.4.1" />
+        <id root="09821e62-3ff0-4cea-8351-4335e3ee89ac" />
+        <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+            displayName="VITAL SIGNS" />
+        <title>Vitals</title>
+        <text>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date Recorded</th>
+                        <th>Body height</th>
+                        <th>Diastolic blood pressure</th>
+                        <th>Systolic blood pressure</th>
+                        <th>Pulse rate</th>
+                        <th>Oxygen saturation in Arterial blood by Pulse oximetry</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td styleCode="Botrule">2024-05-10</td>
+                        <td styleCode="Botrule">
+                            <content ID="vit28049934">175.26 cm</content>
+                        </td>
+                        <td styleCode="Botrule">
+                            <content ID="vit28050162">64 mm[Hg]</content>
+                        </td>
+                        <td styleCode="Botrule">
+                            <content ID="vit28050163">122 mm[Hg]</content>
+                        </td>
+                        <td styleCode="Botrule">
+                            <content ID="vit28050167">72 /min</content>
+                        </td>
+                        <td styleCode="Botrule">
+                            <content ID="vit28050169">99 %</content>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </text>
+        <entry typeCode="DRIV">
+            <organizer classCode="CLUSTER" moodCode="EVN">
+                <templateId extension="2015-08-01"
+                    root="2.16.840.1.113883.10.20.22.4.26" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.26" />
+                <id root="b5b59440-3e59-4e32-9713-fe870ee61214" />
+                <code code="46680005" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT" displayName="Vital signs">
+                    <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1"
+                        codeSystemName="LOINC"
+                        displayName="Vital signs, weight, height, head circumference, oximetry, BMI, and BSA panel" />
+                </code>
+                <statusCode code="completed" />
+                <effectiveTime value="20240510000000-0500" />
+                <component>
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2014-06-09"
+                            root="2.16.840.1.113883.10.20.22.4.27" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                        <id root="3a9aa9d6-8654-4a7d-8046-38c68654275e" />
+                        <code code="8302-2" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Body height" />
+                        <text>
+                            <reference value="#vit28049934" />
+                        </text>
+                        <statusCode code="completed" />
+                        <effectiveTime value="20240510000000-0500" />
+                        <value unit="cm" value="175.26" xsi:type="PQ" />
+                    </observation>
+                </component>
+                <component>
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2014-06-09"
+                            root="2.16.840.1.113883.10.20.22.4.27" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                        <id root="f3c70cc3-6aed-4633-b492-3ffda0d300ef" />
+                        <code code="8462-4" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC"
+                            displayName="Diastolic blood pressure" />
+                        <text>
+                            <reference value="#vit28050162" />
+                        </text>
+                        <statusCode code="completed" />
+                        <effectiveTime value="20240510000000-0500" />
+                        <value unit="mm[Hg]" value="64" xsi:type="PQ" />
+                    </observation>
+                </component>
+                <component>
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2014-06-09"
+                            root="2.16.840.1.113883.10.20.22.4.27" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                        <id root="2fc36f36-ca32-4a3e-87d6-e6a4e7b1d2f8" />
+                        <code code="8480-6" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Systolic blood pressure" />
+                        <text>
+                            <reference value="#vit28050163" />
+                        </text>
+                        <statusCode code="completed" />
+                        <effectiveTime value="20240510000000-0500" />
+                        <value unit="mm[Hg]" value="122" xsi:type="PQ" />
+                    </observation>
+                </component>
+                <component>
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2014-06-09"
+                            root="2.16.840.1.113883.10.20.22.4.27" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                        <id root="efee88e6-5e0e-4e1f-ba4e-def1b442246e" />
+                        <code code="8867-4" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Pulse rate" />
+                        <text>
+                            <reference value="#vit28050167" />
+                        </text>
+                        <statusCode code="completed" />
+                        <effectiveTime value="20240510000000-0500" />
+                        <value unit="/min" value="72" xsi:type="PQ" />
+                    </observation>
+                </component>
+                <component>
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2014-06-09"
+                            root="2.16.840.1.113883.10.20.22.4.27" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                        <id root="dde50029-e70e-424c-a3a7-b05511c2d543" />
+                        <code code="59408-5" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC"
+                            displayName="Oxygen saturation in Arterial blood by Pulse oximetry" />
+                        <text>
+                            <reference value="#vit28050169" />
+                        </text>
+                        <statusCode code="completed" />
+                        <effectiveTime value="20240510000000-0500" />
+                        <value unit="%" value="99" xsi:type="PQ" />
+                    </observation>
+                </component>
+            </organizer>
+        </entry>
+    </section>
+
+</component>

@@ -1,0 +1,54 @@
+<component>
+
+    <section>
+        <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.39" />
+        <templateId root="2.16.840.1.113883.10.20.22.2.39" />
+        <code code="11329-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+        <title>Medical History</title>
+        <text>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Condition</th>
+                        <th>Response</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td styleCode="Botrule">Thyroid Problems</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">Varicose Veins</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">Arthritis</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">BPH</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">Valvular Heart Disease</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">Asthma</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">GERD/Reflux</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">Hypertension</td>
+                        <td styleCode="Botrule">Y</td>
+                    </tr>
+                </tbody>
+            </table>
+        </text>
+    </section>
+
+</component>

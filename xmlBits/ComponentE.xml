@@ -1,0 +1,644 @@
+<component>
+
+    <section>
+        <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.5.1" />
+        <templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+        <id root="67a5f13d-cc63-4c3c-9a1f-edd8f164ae01" />
+        <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+            displayName="Problems" />
+        <title>Problems</title>
+        <text>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Snomed Code</th>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Last Modified Date</th>
+                        <th>Onset Date</th>
+                        <th>Resolution Date</th>
+                        <th>Laterality</th>
+                        <th>Problem Type</th>
+                        <th>ICD-10-CM Code</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td styleCode="Botrule">370992007</td>
+                        <td styleCode="Botrule">Dyslipidemia</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">05/08/2020</td>
+                        <td styleCode="Botrule">05/08/2020</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">E78.5</td>
+                        <td styleCode="Botrule">
+                            <content ID="problem1note">Zetia therapy</content>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">59621000</td>
+                        <td styleCode="Botrule">Essential hypertension</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">I10</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">38341003</td>
+                        <td styleCode="Botrule">Hypertensive disorder</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">04/14/2022</td>
+                        <td styleCode="Botrule">04/14/2022</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">I10</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">49436004</td>
+                        <td styleCode="Botrule">Atrial fibrillation</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">04/14/2022</td>
+                        <td styleCode="Botrule">04/14/2022</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">I48.91</td>
+                        <td styleCode="Botrule">
+                            <content ID="problem4note">Chronic CHADS-2VASC Score -3 WAS
+                                on Eliquis 2.5mg BID Stopped due to probable
+                                Hemorrhoidal Bleeding No rate control medication</content>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">282825002</td>
+                        <td styleCode="Botrule">Paroxysmal atrial fibrillation</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">I48.0</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">10743008</td>
+                        <td styleCode="Botrule">Irritable bowel syndrome</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">K58.9</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">102572006</td>
+                        <td styleCode="Botrule">Edema of lower extremity</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">R60.0</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">60845006</td>
+                        <td styleCode="Botrule">Dyspnea on exertion</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule">08/07/2023</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">R06.09</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">8517006</td>
+                        <td styleCode="Botrule">Ex-smoker</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">04/14/2022</td>
+                        <td styleCode="Botrule">04/14/2022</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">
+                            <content ID="problem9note">!0 years @ 1,5packs per day. Quit
+                                1974</content>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">402863005</td>
+                        <td styleCode="Botrule">Venous stasis ulcer of leg</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">05/08/2020</td>
+                        <td styleCode="Botrule">05/08/2020</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">BILATERAL</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">I83.009</td>
+                        <td styleCode="Botrule">
+                            <content ID="problem10note">Recurrent</content>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">316801000119101</td>
+                        <td styleCode="Botrule">Pain of left lower leg</td>
+                        <td styleCode="Botrule">Active</td>
+                        <td styleCode="Botrule">08/30/2023</td>
+                        <td styleCode="Botrule">08/30/2023</td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">M79.662</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <content styleCode="Bold">Notes: </content> knee-high
+                            stockings size (LS) RA 27 LA 27 RC 43 LC 44 RL 38 LL 38 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </text>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="01e489e3-d9af-4360-8b2b-cef2e6bf58ba" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20200508000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="808c2d82-d34f-472e-8127-dfb0da49119c" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20200508000000-0500" />
+                        </effectiveTime>
+                        <value code="370992007" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED" displayName="Dyslipidemia"
+                            xsi:type="CD">
+                            <translation code="E78.5"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Hyperlipidemia, unspecified" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+                <entryRelationship typeCode="SUBJ">
+                    <act classCode="ACT" moodCode="EVN">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.64" />
+                        <code code="48767-8" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="ANNOTATION COMMENT" />
+                        <text> Zetia therapy <reference value="#problem1note" />
+                        </text>
+                    </act>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="9ee401e1-5067-438f-95e4-c0b70ecb843b" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20230807000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="9e5ab8b5-adc9-47a8-b8cd-c9b9c221cfaf" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20230807000000-0500" />
+                        </effectiveTime>
+                        <value code="59621000" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED" displayName="Essential hypertension"
+                            xsi:type="CD">
+                            <translation code="I10" codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Essential (primary) hypertension" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="61b183aa-1e21-4c3e-8bd3-60f9ed039398" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20220414000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="33dd6cc9-cbbf-400f-aa40-bd75852f0906" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20220414000000-0500" />
+                        </effectiveTime>
+                        <value code="38341003" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED" displayName="Hypertensive disorder"
+                            xsi:type="CD">
+                            <translation code="I10" codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Essential (primary) hypertension" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="9e16111d-50f1-4574-b5ce-413aa2b918c2" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20220414000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="ff6489cf-7a1e-43a8-9a84-6a1c04e4162f" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20220414000000-0500" />
+                        </effectiveTime>
+                        <value code="49436004" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED" displayName="Atrial fibrillation"
+                            xsi:type="CD">
+                            <translation code="I48.91"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Unspecified atrial fibrillation" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+                <entryRelationship typeCode="SUBJ">
+                    <act classCode="ACT" moodCode="EVN">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.64" />
+                        <code code="48767-8" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="ANNOTATION COMMENT" />
+                        <text> Chronic CHADS-2VASC Score -3 WAS on Eliquis 2.5mg BID
+                            Stopped due to probable Hemorrhoidal Bleeding No rate
+                            control medication <reference value="#problem4note" />
+                        </text>
+                    </act>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="652dc2c1-160b-4b0c-93ff-b228848518a4" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20230807000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="9690026e-726a-45ec-9500-029a0747e11c" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20230807000000-0500" />
+                        </effectiveTime>
+                        <value code="282825002" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED"
+                            displayName="Paroxysmal atrial fibrillation" xsi:type="CD">
+                            <translation code="I48.0"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Paroxysmal atrial fibrillation" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="cfd2ff14-1f34-4af1-8470-8e02131bf744" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20230807000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="05171bd7-30c6-4c57-aac0-e1939413ba6e" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20230807000000-0500" />
+                        </effectiveTime>
+                        <value code="10743008" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED"
+                            displayName="Irritable bowel syndrome" xsi:type="CD">
+                            <translation code="K58.9"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Irritable bowel syndrome without diarrhea" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="68853f24-8824-4679-aa7d-d39e25b23d31" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20230807000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="e0677fc9-07bb-4210-8b4f-5601499aca49" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20230807000000-0500" />
+                        </effectiveTime>
+                        <value code="102572006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED"
+                            displayName="Edema of lower extremity" xsi:type="CD">
+                            <translation code="R60.0"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10" displayName="Localized edema" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="7e63a869-f5e9-443b-bd19-2ed06361e080" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20230807000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="c46e1238-1d3d-4f31-b445-e21ad0b586e9" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20230807000000-0500" />
+                        </effectiveTime>
+                        <value code="60845006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED" displayName="Dyspnea on exertion"
+                            xsi:type="CD">
+                            <translation code="R06.09"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Other forms of dyspnea" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="19e8b4dc-1be3-4948-9e2e-0f4e22885724" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20220414000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="5ce516f8-6558-47b8-a6b0-ee6332e6ad33" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20220414000000-0500" />
+                        </effectiveTime>
+                        <value code="8517006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED" displayName="Ex-smoker"
+                            xsi:type="CD" />
+                    </observation>
+                </entryRelationship>
+                <entryRelationship typeCode="SUBJ">
+                    <act classCode="ACT" moodCode="EVN">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.64" />
+                        <code code="48767-8" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="ANNOTATION COMMENT" />
+                        <text> !0 years @ 1,5packs per day. Quit 1974 <reference
+                                value="#problem9note" />
+                        </text>
+                    </act>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="b314cd78-b3a7-4f99-b37e-40df230b24af" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20200508000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="6cc6f866-ab95-45ac-aa63-a381580aef14" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20200508000000-0500" />
+                        </effectiveTime>
+                        <value code="402863005" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED"
+                            displayName="Venous stasis ulcer of leg" xsi:type="CD">
+                            <translation code="I83.009"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Varicose veins of unspecified lower extremity with ulcer of unspecified site" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+                <entryRelationship typeCode="SUBJ">
+                    <act classCode="ACT" moodCode="EVN">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.64" />
+                        <code code="48767-8" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="ANNOTATION COMMENT" />
+                        <text> Recurrent <reference value="#problem10note" />
+                        </text>
+                    </act>
+                </entryRelationship>
+            </act>
+        </entry>
+        <entry>
+            <act classCode="ACT" moodCode="EVN">
+                <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                <id root="f3444753-c6a5-4f92-ae8d-6d1e5987897b" />
+                <code code="CONC" codeSystem="2.16.840.1.113883.5.6"
+                    displayName="Concern" />
+                <statusCode code="active" />
+                <effectiveTime>
+                    <low value="20230830000000-0500" />
+                </effectiveTime>
+                <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <templateId extension="2015-08-01"
+                            root="2.16.840.1.113883.10.20.22.4.4" />
+                        <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                        <id root="fb9f0a7c-a3b2-411f-b5df-d3a4a7e45839" />
+                        <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                            codeSystemName="SNOMED CT" displayName="Problem">
+                            <translation code="75326-9"
+                                codeSystem="2.16.840.1.113883.6.1"
+                                codeSystemName="LOINC" displayName="Problem HL7.CCDAR2" />
+                        </code>
+                        <statusCode code="completed" />
+                        <effectiveTime>
+                            <low value="20230830000000-0500" />
+                        </effectiveTime>
+                        <value code="316801000119101"
+                            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED"
+                            displayName="Pain of left lower leg" xsi:type="CD">
+                            <translation code="M79.662"
+                                codeSystem="2.16.840.1.113883.6.90"
+                                codeSystemName="ICD10"
+                                displayName="Pain in left lower leg" />
+                        </value>
+                    </observation>
+                </entryRelationship>
+            </act>
+        </entry>
+    </section>
+
+</component>

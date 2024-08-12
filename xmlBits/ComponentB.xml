@@ -1,0 +1,143 @@
+<component>
+
+    <section>
+        <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.10" />
+        <templateId root="2.16.840.1.113883.10.20.22.2.10" />
+        <id root="d2b1ca83-c2c5-4771-b59e-67084d74d4ad" />
+        <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+        <title>Plan of Treatment</title>
+        <text>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Reminders</th>
+                        <th />
+                        <th>Order Date</th>
+                        <th>Submit Date</th>
+                        <th>Provider</th>
+                        <th>Last Modified By</th>
+                        <th>Organization Details</th>
+                        <th>Last Modified Time</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content styleCode="Bold">Appointments</content>
+                        </td>
+                        <td styleCode="Botrule">
+                            <content ID="PlanOfCareAct1">Est Pt 15</content>
+                        </td>
+                        <td styleCode="Botrule"> 05/10/2024 02:00PM </td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule">Timothy Dao, MD</td>
+                        <td styleCode="Botrule">Not available</td>
+                        <td styleCode="Botrule">Not available</td>
+                        <td styleCode="Botrule">Not available</td>
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content styleCode="Bold">Lab</content>
+                        </td>
+                        <td styleCode="Botrule"> None recorded. </td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content styleCode="Bold">Referral</content>
+                        </td>
+                        <td styleCode="Botrule"> None recorded. </td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content styleCode="Bold">Procedures</content>
+                        </td>
+                        <td styleCode="Botrule"> None recorded. </td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content styleCode="Bold">Surgeries</content>
+                        </td>
+                        <td styleCode="Botrule"> None recorded. </td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content styleCode="Bold">Imaging</content>
+                        </td>
+                        <td styleCode="Botrule"> None recorded. </td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                    </tr>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content styleCode="Bold">Medication Orders</content>
+                        </td>
+                        <td styleCode="Botrule"> None recorded. </td>
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                        <td styleCode="Botrule" />
+                    </tr>
+                </tbody>
+            </table>
+            <content>Patient Targets</content>
+            <content>No targets recorded.</content>
+            <content>Patient Instructions</content>
+            <content>No instructions recorded.</content>
+        </text>
+        <entry>
+            <encounter classCode="ENC" moodCode="INT">
+                <templateId extension="2014-06-09"
+                    root="2.16.840.1.113883.10.20.22.4.40" />
+                <templateId root="2.16.840.1.113883.10.20.22.4.40" />
+                <id root="7a71923e-63a4-4fdf-b308-387145e935e9" />
+                <code codeSystem="2.16.840.1.113883.3.88.12.80.32"
+                    codeSystemName="CPT-4" nullFlavor="NI">
+                    <originalText>
+                        <reference value="#PlanOfCareAct1" />
+                    </originalText>
+                </code>
+                <statusCode code="active" />
+                <effectiveTime value="202405101400" />
+            </encounter>
+        </entry>
+    </section>
+
+</component>

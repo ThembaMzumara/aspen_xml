@@ -1,0 +1,68 @@
+<component>
+
+    <section>
+        <templateId root="2.16.840.1.113883.10.20.22.2.2.1" />
+        <id root="8111f334-147f-4973-9c73-5d9f43bec318" />
+        <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+            displayName="History of immunizations" />
+        <title>Immunizations</title>
+        <text>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vaccine Type</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td styleCode="Botrule">
+                            <content ID="immun1">SARS-COV-2 (COVID-19) vaccine, mRNA,
+                                spike protein, LNP, preservative free, 100 mcg/0.5mL
+                                dose</content>
+                        </td>
+                        <td styleCode="Botrule">09/19/2021</td>
+                        <td styleCode="Botrule">completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </text>
+        <entry>
+            <substanceAdministration classCode="SBADM" moodCode="EVN"
+                negationInd="false">
+                <templateId root="2.16.840.1.113883.10.20.22.4.52" />
+                <templateId extension="2015-08-01"
+                    root="2.16.840.1.113883.10.20.22.4.52" />
+                <id root="cbd2a49a-123a-4442-8995-9a57363a02d6" />
+                <text>
+                    <reference value="#immun1" />
+                </text>
+                <statusCode code="completed" />
+                <effectiveTime value="20210919" />
+                <doseQuantity nullFlavor="NI" />
+                <consumable>
+                    <manufacturedProduct classCode="MANU">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.54" />
+                        <templateId extension="2014-06-09"
+                            root="2.16.840.1.113883.10.20.22.4.54" />
+                        <manufacturedMaterial>
+                            <code code="207" codeSystem="2.16.840.1.113883.12.292"
+                                codeSystemName="CVX"
+                                displayName="SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 100 mcg/0.5mL dose">
+                                <originalText> SARS-COV-2 (COVID-19) vaccine, mRNA,
+                                    spike protein, LNP, preservative free, 100 mcg/0.5mL
+                                    dose </originalText>
+                            </code>
+                            <lotNumberText nullFlavor="NI" />
+                        </manufacturedMaterial>
+                        <manufacturerOrganization classCode="ORG">
+                            <name />
+                        </manufacturerOrganization>
+                    </manufacturedProduct>
+                </consumable>
+            </substanceAdministration>
+        </entry>
+    </section>
+
+</component>
