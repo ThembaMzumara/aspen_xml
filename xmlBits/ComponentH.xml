@@ -1758,10 +1758,10 @@
                 <id root="74f5ce91-c8e5-49c5-9105-ed33789a2336" />
                 <text />
                 <statusCode code="completed" />
-                <effectiveTime xsi:type="IVL_TS">
+                <!-- <effectiveTime xsi:type="IVL_TS">
                     <low nullFlavor="UNK" />
                     <high value="20200722" />
-                </effectiveTime>
+                </effectiveTime> -->
                 <doseQuantity nullFlavor="NI" />
                 <consumable>
                     <manufacturedProduct classCode="MANU">
@@ -4339,7 +4339,7 @@
                     </manufacturedProduct>
                 </consumable>
             </substanceAdministration>
-            <!-- </entryRelationship> -->
+            </entryRelationship>
             </substanceAdministration>
         </entry>
         <entry>
