@@ -51,16 +51,14 @@ const
         traverse(jsonObj);
         return tables;
     },
-    findSearchKey = (jsonObj, searchKey, fileName) => {
-        let found = false;
+    findSearchKey = (jsonObj, searchKey) => {
+        let found = [];
     
         function traverse(obj) {
             for (let key in obj) {
                 if (obj.hasOwnProperty(key)) {
                     if (key === searchKey) {
-                        fs.writeFileSync(fileName, JSON.stringify({ [key]: obj[key] }, null, 2));
-                        found = true;
-                        return;
+                        found.push( { [key]: obj[key] })
                     }
                     if (typeof obj[key] === 'object' && obj[key] !== null) {
                         traverse(obj[key]);
@@ -70,23 +68,20 @@ const
         }
     
         traverse(jsonObj);
-    
-        if (!found) {
-            console.log('missing');
-        }
+        return found
     };
 
 try {
     const
     jsonData = xml2js.xml2json( fs.readFileSync('HealthDataSample.xml', 'utf-8'), {compact: true, spaces: 4}),
     // jsonData = xml2js.xml2json( fs.readFileSync('./xmlBits/ComponentE.xml', 'utf-8'), {compact: true, spaces: 4}),
-    tableData = extractTables(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ));
+    tableData = extractTables(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ))
+    searchKeyData = findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'name' );
 
     fs.writeFileSync('OutputJsonData.json', jsonData, 'utf-8');
+    fs.writeFileSync('SearchKeyOutput.json', JSON.stringify(searchKeyData));
     fs.writeFileSync('OutputTableData.js', JSON.stringify(tableData, null, 2));
 
-    findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'informant', 'searchKeyOutput.json' )   
-    
     // console.log(keys(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') )))       
     // console.log(flatten(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') )))       
 } catch (error) { 

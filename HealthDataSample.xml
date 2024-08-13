@@ -62,7 +62,7 @@
         </patientRole>
     </recordTarget>
 
-    <author>
+    <!-- <author>
         <time value="20240510154357-0500" />
         <assignedAuthor>
             <id root="2.16.840.1.113883.3.564" />
@@ -93,7 +93,7 @@
         </assignedAuthor>
     </author>
 
-    <!-- <custodian>
+    <custodian>
         <assignedCustodian>
             <representedCustodianOrganization>
                 <id root="2.16.840.1.113883.3.564" />
@@ -108,9 +108,8 @@
                 </addr>
             </representedCustodianOrganization>
         </assignedCustodian>
-    </custodian> -->
+    </custodian>
 
-<!-- 
     <legalAuthenticator>
         <time value="20240510154354-0400" />
         <signatureCode code="S" />
@@ -133,9 +132,8 @@
                 </name>
             </assignedPerson>
         </assignedEntity>
-    </legalAuthenticator> -->
+    </legalAuthenticator>
 
-<!-- 
     <documentationOf>
         <serviceEvent classCode="PCPR">
             <effectiveTime>
@@ -291,9 +289,8 @@
                 </assignedEntity>
             </performer>
         </serviceEvent>
-    </documentationOf> -->
+    </documentationOf>
 
-<!-- 
     <componentOf>
         <encompassingEncounter>
             <id extension="5291565" root="2.16.840.1.113883.19" />
