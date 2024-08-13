@@ -85,9 +85,10 @@ try {
     fs.writeFileSync('OutputJsonData.json', jsonData, 'utf-8');
     fs.writeFileSync('OutputTableData.js', JSON.stringify(tableData, null, 2));
     
+    findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'patient', 'PatientData.json' )   
+    
     // console.log(keys(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') )))       
     // console.log(flatten(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') )))       
-    findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'patient', 'PatientData.json' )   
 } catch (error) { 
     console.log(error)
 }
