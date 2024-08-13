@@ -93,7 +93,7 @@
         </assignedAuthor>
     </author>
 
-    <custodian>
+    <!-- <custodian>
         <assignedCustodian>
             <representedCustodianOrganization>
                 <id root="2.16.840.1.113883.3.564" />
@@ -108,8 +108,9 @@
                 </addr>
             </representedCustodianOrganization>
         </assignedCustodian>
-    </custodian>
+    </custodian> -->
 
+<!-- 
     <legalAuthenticator>
         <time value="20240510154354-0400" />
         <signatureCode code="S" />
@@ -132,8 +133,9 @@
                 </name>
             </assignedPerson>
         </assignedEntity>
-    </legalAuthenticator>
+    </legalAuthenticator> -->
 
+<!-- 
     <documentationOf>
         <serviceEvent classCode="PCPR">
             <effectiveTime>
@@ -289,8 +291,9 @@
                 </assignedEntity>
             </performer>
         </serviceEvent>
-    </documentationOf>
+    </documentationOf> -->
 
+<!-- 
     <componentOf>
         <encompassingEncounter>
             <id extension="5291565" root="2.16.840.1.113883.19" />
@@ -317,7 +320,75 @@
                 </assignedEntity>
             </encounterParticipant>
         </encompassingEncounter>
-    </componentOf>
+    </componentOf> -->
     
+    <!-- MAIN COMPONENT -->
+    <component>
+        
+        <!-- STRUCTURE BODY -->
+        <structuredBody>
+            
+            <!-- COMPONENT A -->
+
+            <!-- COMPONENT B -->
+            
+            
+            <!-- COMPONENT C -->
+            
+
+            <!-- COMPONENT D -->
+            
+
+            <!-- COMPONENT E -->
+            
+
+            <!-- COMPONENT F -->
+            
+
+            <!-- COMPONENT G -->
+            
+
+            <!-- COMPONENT H -->
+            
+
+            <!-- COMPONENT H -->
+            
+
+            <!-- COMPONENT I -->
+            
+
+            <!-- COMPONENT J -->
+            
+
+            <!-- COMPONENT K -->
+            
+
+            <!-- COMPONENT L -->
+            
+
+            <!-- COMPONENT M -->
+            
+
+            <!-- COMPONENT N -->
+            
+
+            <!-- COMPONENT O -->
+            
+
+            <!-- COMPONENT P -->
+            
+
+            <!-- COMPONENT Q -->
+            
+
+            <!-- COMPONENT R -->
+            
+
+            <!-- COMPONENT S -->
+            
+
+        </structuredBody>
+
+    </component>
 
 </ClinicalDocument>

@@ -1,970 +1,137 @@
 {
-    "_declaration": {
-        "_attributes": {
-            "version": "1.0",
-            "encoding": "UTF-8",
-            "standalone": "no"
-        }
-    },
-    "_instruction": {
-        "xml-stylesheet": "href=\"CCDA.xsl\" type=\"text/xsl\""
-    },
-    "ClinicalDocument": {
-        "_attributes": {
-            "xmlns": "urn:hl7-org:v3",
-            "xmlns:sdtc": "urn:hl7-org:sdtc",
-            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "realmCode": {
+    "component": {
+        "section": {
             "_attributes": {
-                "code": "US"
-            }
-        },
-        "typeId": {
-            "_attributes": {
-                "extension": "POCD_HD000040",
-                "root": "2.16.840.1.113883.1.3"
-            }
-        },
-        "templateId": [
-            {
-                "_attributes": {
-                    "extension": "2015-08-01",
-                    "root": "2.16.840.1.113883.10.20.22.1.1"
-                }
+                "nullFlavor": "NI"
             },
-            {
-                "_attributes": {
-                    "root": "2.16.840.1.113883.10.20.22.1.1"
-                }
-            },
-            {
-                "_attributes": {
-                    "extension": "2015-08-01",
-                    "root": "2.16.840.1.113883.10.20.22.1.2"
-                }
-            },
-            {
-                "_attributes": {
-                    "root": "2.16.840.1.113883.10.20.22.1.2"
-                }
-            }
-        ],
-        "id": {
-            "_attributes": {
-                "root": "2.16.840.1.113883.3.564.14273.5.188895306.0"
-            }
-        },
-        "code": {
-            "_attributes": {
-                "code": "34133-9",
-                "codeSystem": "2.16.840.1.113883.6.1",
-                "displayName": "Summarization of Episode Note"
-            }
-        },
-        "title": {
-            "_text": "Continuity of Care Document"
-        },
-        "effectiveTime": {
-            "_attributes": {
-                "value": "20240510154357-0500"
-            }
-        },
-        "confidentialityCode": {
-            "_attributes": {
-                "code": "N",
-                "codeSystem": "2.16.840.1.113883.5.25"
-            }
-        },
-        "languageCode": {
-            "_attributes": {
-                "code": "en-US"
-            }
-        },
-        "recordTarget": {
-            "patientRole": {
-                "id": [
-                    {
-                        "_attributes": {
-                            "extension": "748141",
-                            "root": "2.16.840.1.113883.3.564.14273"
-                        }
-                    },
-                    {
-                        "_attributes": {
-                            "extension": "444465374",
-                            "root": "2.16.840.1.113883.4.1"
-                        }
-                    }
-                ],
-                "addr": {
+            "templateId": [
+                {
                     "_attributes": {
-                        "use": "HP"
-                    },
-                    "streetAddressLine": [
-                        {
-                            "_text": "3401 Premier Drive"
-                        },
-                        {
-                            "_text": "Apt 231"
-                        }
-                    ],
-                    "city": {
-                        "_text": "Plano"
-                    },
-                    "state": {
-                        "_text": "TX"
-                    },
-                    "postalCode": {
-                        "_text": "75023-7099"
-                    },
-                    "country": {
-                        "_text": "US"
+                        "extension": "2015-08-01",
+                        "root": "2.16.840.1.113883.10.20.22.2.3.1"
                     }
                 },
-                "telecom": [
-                    {
-                        "_attributes": {
-                            "use": "HP",
-                            "value": "tel:+1-469-744-3843"
-                        }
-                    },
-                    {
-                        "_attributes": {
-                            "use": "MC",
-                            "value": "tel:+1-469-744-3843"
-                        }
+                {
+                    "_attributes": {
+                        "root": "2.16.840.1.113883.10.20.22.2.3.1"
                     }
-                ],
-                "patient": {
-                    "name": {
-                        "given": {
-                            "_text": "Alva"
+                }
+            ],
+            "id": {
+                "_attributes": {
+                    "root": "283ba253-7b09-4c2d-9746-92ff9c4aadae"
+                }
+            },
+            "code": {
+                "_attributes": {
+                    "code": "30954-2",
+                    "codeSystem": "2.16.840.1.113883.6.1",
+                    "codeSystemName": "LOINC"
+                }
+            },
+            "title": {
+                "_text": "Results"
+            },
+            "text": {
+                "paragraph": {
+                    "content": {
+                        "_attributes": {
+                            "ID": "result1"
                         },
-                        "family": {
-                            "_text": "Anderson"
-                        }
+                        "_text": "None recorded."
+                    }
+                }
+            },
+            "entry": {
+                "organizer": {
+                    "_attributes": {
+                        "classCode": "BATTERY",
+                        "moodCode": "EVN"
                     },
-                    "administrativeGenderCode": {
+                    "templateId": {
                         "_attributes": {
-                            "code": "M",
-                            "codeSystem": "2.16.840.1.113883.5.1"
+                            "root": "2.16.840.1.113883.10.20.22.4.1"
                         }
                     },
-                    "birthTime": {
+                    "id": {
                         "_attributes": {
-                            "value": "19460816"
+                            "root": "032a92e9-d6f4-4235-90cb-2d50006e2b03"
                         }
                     },
-                    "maritalStatusCode": {
+                    "code": {
                         "_attributes": {
-                            "code": "D",
-                            "codeSystem": "2.16.840.1.113883.5.2",
-                            "displayName": "Divorced"
-                        }
-                    },
-                    "raceCode": {
-                        "_attributes": {
-                            "code": "2106-3",
-                            "codeSystem": "2.16.840.1.113883.6.238",
-                            "codeSystemName": "Race n Ethnicity - CDC",
-                            "displayName": "White"
-                        }
-                    },
-                    "ethnicGroupCode": {
-                        "_attributes": {
-                            "code": "2186-5",
-                            "codeSystem": "2.16.840.1.113883.6.238",
-                            "codeSystemName": "Race n Ethnicity - CDC",
-                            "displayName": "Not Hispanic or Latino"
-                        }
-                    },
-                    "languageCommunication": {
-                        "languageCode": {
+                            "nullFlavor": "NI",
+                            "xsi:type": "CE"
+                        },
+                        "translation": {
                             "_attributes": {
-                                "code": "en"
+                                "codeSystemName": "Lab Result Description",
+                                "displayName": "None recorded."
                             }
                         }
-                    }
-                },
-                "providerOrganization": {
-                    "id": {
+                    },
+                    "statusCode": {
                         "_attributes": {
-                            "extension": "1407029689",
-                            "root": "2.16.840.1.113883.4.6"
+                            "code": "completed"
                         }
                     },
-                    "name": {
-                        "_text": "TX - HeartPlace"
-                    },
-                    "telecom": {
-                        "_attributes": {
-                            "use": "WP",
-                            "value": "tel: (972) 985-8838"
-                        }
-                    },
-                    "addr": {
-                        "_attributes": {
-                            "use": "WP"
-                        },
-                        "streetAddressLine": {
-                            "_text": "3801 W 15th Street"
-                        },
-                        "city": {
-                            "_text": "PLANO"
-                        },
-                        "state": {
-                            "_text": "TX"
-                        },
-                        "postalCode": {
-                            "_text": "75075-7767"
-                        },
-                        "country": {
-                            "_text": "US"
-                        }
-                    }
-                }
-            }
-        },
-        "author": {
-            "time": {
-                "_attributes": {
-                    "value": "20240510154357-0500"
-                }
-            },
-            "assignedAuthor": {
-                "id": {
-                    "_attributes": {
-                        "root": "2.16.840.1.113883.3.564"
-                    }
-                },
-                "addr": {
-                    "_attributes": {
-                        "use": "WP"
-                    },
-                    "streetAddressLine": {
-                        "_text": "311 Arsenal St"
-                    },
-                    "city": {
-                        "_text": "Watertown"
-                    },
-                    "state": {
-                        "_text": "MA"
-                    },
-                    "postalCode": {
-                        "_text": "02472"
-                    },
-                    "country": {
-                        "_text": "US"
-                    }
-                },
-                "telecom": {
-                    "_attributes": {
-                        "use": "WP",
-                        "value": "tel:+1-617-4021000"
-                    }
-                },
-                "assignedAuthoringDevice": {
-                    "manufacturerModelName": {
-                        "_text": "athenahealth"
-                    },
-                    "softwareName": {
-                        "_text": "Document Generation Engine"
-                    }
-                },
-                "representedOrganization": {
-                    "id": {
-                        "_attributes": {
-                            "extension": "14273",
-                            "root": "7d1abde2-025b-4748-aa35-519d83a85ba0"
-                        }
-                    },
-                    "name": {
-                        "_text": "TX - HeartPlace, Plano"
-                    },
-                    "telecom": {
-                        "_attributes": {
-                            "use": "WP",
-                            "value": "tel: (972) 985-8838"
-                        }
-                    },
-                    "addr": {
-                        "_attributes": {
-                            "use": "WP"
-                        },
-                        "streetAddressLine": {
-                            "_text": "3801 W 15th Street"
-                        },
-                        "city": {
-                            "_text": "PLANO"
-                        },
-                        "state": {
-                            "_text": "TX"
-                        },
-                        "postalCode": {
-                            "_text": "75075-7767"
-                        },
-                        "country": {
-                            "_text": "US"
-                        }
-                    }
-                }
-            }
-        },
-        "custodian": {
-            "assignedCustodian": {
-                "representedCustodianOrganization": {
-                    "id": {
-                        "_attributes": {
-                            "root": "2.16.840.1.113883.3.564"
-                        }
-                    },
-                    "name": {
-                        "_text": "athenahealth"
-                    },
-                    "telecom": {
-                        "_attributes": {
-                            "use": "WP",
-                            "value": "tel:+1-617-4021000"
-                        }
-                    },
-                    "addr": {
-                        "_attributes": {
-                            "use": "WP"
-                        },
-                        "streetAddressLine": {
-                            "_text": "311 Arsenal St"
-                        },
-                        "city": {
-                            "_text": "Watertown"
-                        },
-                        "state": {
-                            "_text": "MA"
-                        },
-                        "postalCode": {
-                            "_text": "02472"
-                        },
-                        "country": {
-                            "_text": "US"
-                        }
-                    }
-                }
-            }
-        },
-        "legalAuthenticator": {
-            "time": {
-                "_attributes": {
-                    "value": "20240510154354-0400"
-                }
-            },
-            "signatureCode": {
-                "_attributes": {
-                    "code": "S"
-                }
-            },
-            "assignedEntity": {
-                "id": {
-                    "_attributes": {
-                        "extension": "1407029689",
-                        "root": "2.16.840.1.113883.4.6"
-                    }
-                },
-                "addr": {
-                    "_attributes": {
-                        "use": "WP"
-                    },
-                    "streetAddressLine": [
-                        {
-                            "_text": "16980 DALLAS PKWY"
-                        },
-                        {
-                            "_text": "STE 200"
-                        }
-                    ],
-                    "city": {
-                        "_text": "DALLAS"
-                    },
-                    "state": {
-                        "_text": "TX"
-                    },
-                    "postalCode": {
-                        "_text": "75248-1974"
-                    },
-                    "country": {
-                        "_text": "US"
-                    }
-                },
-                "telecom": {
-                    "_attributes": {
-                        "use": "WP",
-                        "value": "tel: (972) 391-2000"
-                    }
-                },
-                "assignedPerson": {
-                    "name": {
-                        "given": {
-                            "_text": "TIMOTHY"
-                        },
-                        "family": {
-                            "_text": "DAO"
-                        },
-                        "suffix": {
-                            "_text": "MD"
-                        }
-                    }
-                }
-            }
-        },
-        "documentationOf": {
-            "serviceEvent": {
-                "_attributes": {
-                    "classCode": "PCPR"
-                },
-                "effectiveTime": {
-                    "low": {
-                        "_attributes": {
-                            "value": "20240510"
-                        }
-                    },
-                    "high": {
+                    "effectiveTime": {
                         "_attributes": {
                             "nullFlavor": "NI"
                         }
-                    }
-                },
-                "performer": [
-                    {
-                        "_attributes": {
-                            "typeCode": "PRF"
-                        },
-                        "templateId": {
+                    },
+                    "component": {
+                        "observation": {
                             "_attributes": {
-                                "root": "2.16.840.1.113883.10.20.6.2.1"
-                            }
-                        },
-                        "functionCode": {
-                            "_attributes": {
-                                "code": "82",
-                                "displayName": "Cardiologist"
-                            }
-                        },
-                        "assignedEntity": {
+                                "classCode": "OBS",
+                                "moodCode": "EVN"
+                            },
+                            "templateId": {
+                                "_attributes": {
+                                    "root": "2.16.840.1.113883.10.20.22.4.2"
+                                }
+                            },
                             "id": {
                                 "_attributes": {
-                                    "extension": "1295702090",
-                                    "root": "2.16.840.1.113883.4.6"
+                                    "root": "7195bf3d-64b3-4f8a-9768-0fcb139c09df"
                                 }
                             },
                             "code": {
                                 "_attributes": {
-                                    "code": "207RC0000X",
-                                    "codeSystem": "2.16.840.1.113883.6.101",
-                                    "codeSystemName": "NUCC",
-                                    "displayName": "Internal Medicine"
+                                    "nullFlavor": "NI"
                                 }
                             },
-                            "addr": {
+                            "text": {
+                                "reference": {
+                                    "_attributes": {
+                                        "value": "#result1"
+                                    }
+                                }
+                            },
+                            "statusCode": {
                                 "_attributes": {
-                                    "use": "WP"
-                                },
-                                "streetAddressLine": [
-                                    {
-                                        "_text": "307 E OVILLA RD"
-                                    },
-                                    {
-                                        "_text": "STE 600"
-                                    }
-                                ],
-                                "city": {
-                                    "_text": "RED OAK"
-                                },
-                                "state": {
-                                    "_text": "TX"
-                                },
-                                "postalCode": {
-                                    "_text": "75154"
-                                },
-                                "country": {
-                                    "_text": "US"
+                                    "code": "completed"
                                 }
                             },
-                            "telecom": {
+                            "effectiveTime": {
                                 "_attributes": {
-                                    "use": "WP",
-                                    "value": "tel: (972) 276-8937"
+                                    "nullFlavor": "NI"
                                 }
                             },
-                            "assignedPerson": {
-                                "name": {
-                                    "given": {
-                                        "_text": "JOSEPH"
-                                    },
-                                    "family": {
-                                        "_text": "BELLOMO"
-                                    }
+                            "value": {
+                                "_attributes": {
+                                    "nullFlavor": "NI",
+                                    "xsi:type": "CD"
                                 }
                             },
-                            "representedOrganization": {
-                                "id": {
-                                    "_attributes": {
-                                        "root": "50e5915a-eb80-4e5c-8842-dfbdb09dad72"
-                                    }
-                                },
-                                "name": {
-                                    "_attributes": {
-                                        "nullFlavor": "NI"
-                                    }
-                                },
-                                "telecom": {
-                                    "_attributes": {
-                                        "use": "WP",
-                                        "value": "tel: (972) 276-8937"
-                                    }
-                                },
-                                "addr": {
-                                    "_attributes": {
-                                        "use": "WP"
-                                    },
-                                    "streetAddressLine": [
-                                        {
-                                            "_text": "307 E OVILLA RD"
-                                        },
-                                        {
-                                            "_text": "STE 600"
+                            "interpretationCode": {},
+                            "referenceRange": {
+                                "observationRange": {
+                                    "text": {
+                                        "_attributes": {
+                                            "nullFlavor": "NI"
                                         }
-                                    ],
-                                    "city": {
-                                        "_text": "RED OAK"
-                                    },
-                                    "state": {
-                                        "_text": "TX"
-                                    },
-                                    "postalCode": {
-                                        "_text": "75154"
-                                    },
-                                    "country": {
-                                        "_text": "US"
                                     }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "_attributes": {
-                            "typeCode": "PRF"
-                        },
-                        "templateId": {
-                            "_attributes": {
-                                "root": "2.16.840.1.113883.10.20.6.2.1"
-                            }
-                        },
-                        "functionCode": {
-                            "_attributes": {
-                                "code": "3",
-                                "displayName": "Primary Care Provider"
-                            }
-                        },
-                        "assignedEntity": {
-                            "id": {
-                                "_attributes": {
-                                    "extension": "1023456506",
-                                    "root": "2.16.840.1.113883.4.6"
-                                }
-                            },
-                            "code": {
-                                "_attributes": {
-                                    "code": "207R00000X",
-                                    "codeSystem": "2.16.840.1.113883.6.101",
-                                    "codeSystemName": "NUCC",
-                                    "displayName": "Internal Medicine"
-                                }
-                            },
-                            "addr": {
-                                "_attributes": {
-                                    "use": "WP"
-                                },
-                                "streetAddressLine": [
-                                    {
-                                        "_text": "2460 NORTH IH 35E"
-                                    },
-                                    {
-                                        "_text": "STE 100"
-                                    }
-                                ],
-                                "city": {
-                                    "_text": "WAXAHACHIE"
-                                },
-                                "state": {
-                                    "_text": "TX"
-                                },
-                                "postalCode": {
-                                    "_text": "75165"
-                                },
-                                "country": {
-                                    "_text": "US"
-                                }
-                            },
-                            "telecom": {
-                                "_attributes": {
-                                    "use": "WP",
-                                    "value": "tel: (469) 800-9500"
-                                }
-                            },
-                            "assignedPerson": {
-                                "name": {
-                                    "given": {
-                                        "_text": "SWETA"
-                                    },
-                                    "family": {
-                                        "_text": "NARASIMHAN"
-                                    }
-                                }
-                            },
-                            "representedOrganization": {
-                                "id": {
-                                    "_attributes": {
-                                        "root": "f7659954-55aa-4d0a-bc9b-e818a66b422e"
-                                    }
-                                },
-                                "name": {
-                                    "_attributes": {
-                                        "nullFlavor": "NI"
-                                    }
-                                },
-                                "telecom": {
-                                    "_attributes": {
-                                        "use": "WP",
-                                        "value": "tel: (469) 800-9500"
-                                    }
-                                },
-                                "addr": {
-                                    "_attributes": {
-                                        "use": "WP"
-                                    },
-                                    "streetAddressLine": [
-                                        {
-                                            "_text": "2460 NORTH IH 35E"
-                                        },
-                                        {
-                                            "_text": "STE 100"
-                                        }
-                                    ],
-                                    "city": {
-                                        "_text": "WAXAHACHIE"
-                                    },
-                                    "state": {
-                                        "_text": "TX"
-                                    },
-                                    "postalCode": {
-                                        "_text": "75165"
-                                    },
-                                    "country": {
-                                        "_text": "US"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "_attributes": {
-                            "typeCode": "PRF"
-                        },
-                        "templateId": {
-                            "_attributes": {
-                                "root": "2.16.840.1.113883.10.20.6.2.1"
-                            }
-                        },
-                        "functionCode": {
-                            "_attributes": {
-                                "code": "201",
-                                "displayName": "Colorectal Surgeon"
-                            }
-                        },
-                        "assignedEntity": {
-                            "id": {
-                                "_attributes": {
-                                    "extension": "1750722401",
-                                    "root": "2.16.840.1.113883.4.6"
-                                }
-                            },
-                            "code": {
-                                "_attributes": {
-                                    "code": "208C00000X",
-                                    "codeSystem": "2.16.840.1.113883.6.101",
-                                    "codeSystemName": "NUCC",
-                                    "displayName": "Colon n Rectal Surgery"
-                                }
-                            },
-                            "addr": {
-                                "_attributes": {
-                                    "use": "WP"
-                                },
-                                "streetAddressLine": [
-                                    {
-                                        "_text": "5151 HARRY HINES BLVD"
-                                    },
-                                    {
-                                        "_text": "UTSW ZALE LIPSHY-WILLIAM CLEMENTS HOSPITAL"
-                                    }
-                                ],
-                                "city": {
-                                    "_text": "DALLAS"
-                                },
-                                "state": {
-                                    "_text": "TX"
-                                },
-                                "postalCode": {
-                                    "_text": "75390"
-                                },
-                                "country": {
-                                    "_text": "US"
-                                }
-                            },
-                            "telecom": {
-                                "_attributes": {
-                                    "use": "WP",
-                                    "value": "tel: (214) 633-4202"
-                                }
-                            },
-                            "assignedPerson": {
-                                "name": {
-                                    "given": {
-                                        "_text": "SITARAM"
-                                    },
-                                    "family": {
-                                        "_text": "CHILAKAMARRY"
-                                    }
-                                }
-                            },
-                            "representedOrganization": {
-                                "id": {
-                                    "_attributes": {
-                                        "root": "faaa3dc5-51ae-42c4-bc41-d62f8aaf7c42"
-                                    }
-                                },
-                                "name": {
-                                    "_attributes": {
-                                        "nullFlavor": "NI"
-                                    }
-                                },
-                                "telecom": {
-                                    "_attributes": {
-                                        "use": "WP",
-                                        "value": "tel: (214) 633-4202"
-                                    }
-                                },
-                                "addr": {
-                                    "_attributes": {
-                                        "use": "WP"
-                                    },
-                                    "streetAddressLine": [
-                                        {
-                                            "_text": "5151 HARRY HINES BLVD"
-                                        },
-                                        {
-                                            "_text": "UTSW ZALE LIPSHY-WILLIAM CLEMENTS HOSPITAL"
-                                        }
-                                    ],
-                                    "city": {
-                                        "_text": "DALLAS"
-                                    },
-                                    "state": {
-                                        "_text": "TX"
-                                    },
-                                    "postalCode": {
-                                        "_text": "75390"
-                                    },
-                                    "country": {
-                                        "_text": "US"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "_attributes": {
-                            "typeCode": "PRF"
-                        },
-                        "templateId": {
-                            "_attributes": {
-                                "root": "2.16.840.1.113883.10.20.6.2.1"
-                            }
-                        },
-                        "functionCode": {
-                            "_attributes": {
-                                "code": "2",
-                                "displayName": "Other"
-                            }
-                        },
-                        "assignedEntity": {
-                            "id": {
-                                "_attributes": {
-                                    "extension": "1851525943",
-                                    "root": "2.16.840.1.113883.4.6"
-                                }
-                            },
-                            "code": {
-                                "_attributes": {
-                                    "code": "207T00000X",
-                                    "codeSystem": "2.16.840.1.113883.6.101",
-                                    "codeSystemName": "NUCC",
-                                    "displayName": "Neurological Surgery"
-                                }
-                            },
-                            "addr": {
-                                "_attributes": {
-                                    "use": "WP"
-                                },
-                                "streetAddressLine": [
-                                    {
-                                        "_text": "6020 W PARKER RD"
-                                    },
-                                    {
-                                        "_text": "STE 200"
-                                    }
-                                ],
-                                "city": {
-                                    "_text": "PLANO"
-                                },
-                                "state": {
-                                    "_text": "TX"
-                                },
-                                "postalCode": {
-                                    "_text": "75093"
-                                },
-                                "country": {
-                                    "_text": "US"
-                                }
-                            },
-                            "telecom": {
-                                "_attributes": {
-                                    "use": "WP",
-                                    "value": "tel: (972) 608-5000"
-                                }
-                            },
-                            "assignedPerson": {
-                                "name": {
-                                    "given": {
-                                        "_text": "BLAKE"
-                                    },
-                                    "family": {
-                                        "_text": "STAUB"
-                                    }
-                                }
-                            },
-                            "representedOrganization": {
-                                "id": {
-                                    "_attributes": {
-                                        "root": "d50e3f99-2c00-4e55-a9e2-5bed7903c96f"
-                                    }
-                                },
-                                "name": {
-                                    "_attributes": {
-                                        "nullFlavor": "NI"
-                                    }
-                                },
-                                "telecom": {
-                                    "_attributes": {
-                                        "use": "WP",
-                                        "value": "tel: (972) 608-5000"
-                                    }
-                                },
-                                "addr": {
-                                    "_attributes": {
-                                        "use": "WP"
-                                    },
-                                    "streetAddressLine": [
-                                        {
-                                            "_text": "6020 W PARKER RD"
-                                        },
-                                        {
-                                            "_text": "STE 200"
-                                        }
-                                    ],
-                                    "city": {
-                                        "_text": "PLANO"
-                                    },
-                                    "state": {
-                                        "_text": "TX"
-                                    },
-                                    "postalCode": {
-                                        "_text": "75093"
-                                    },
-                                    "country": {
-                                        "_text": "US"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        "componentOf": {
-            "encompassingEncounter": {
-                "id": {
-                    "_attributes": {
-                        "extension": "5291565",
-                        "root": "2.16.840.1.113883.19"
-                    }
-                },
-                "effectiveTime": {
-                    "_attributes": {
-                        "value": "20240510"
-                    }
-                },
-                "encounterParticipant": {
-                    "_attributes": {
-                        "typeCode": "ATND"
-                    },
-                    "assignedEntity": {
-                        "id": {
-                            "_attributes": {
-                                "extension": "1407029689",
-                                "root": "2.16.840.1.113883.4.6"
-                            }
-                        },
-                        "code": {
-                            "_attributes": {
-                                "code": "207RI0011X",
-                                "codeSystem": "2.16.840.1.113883.6.101",
-                                "codeSystemName": "NUCC",
-                                "displayName": "Cardiology"
-                            }
-                        },
-                        "addr": {
-                            "_attributes": {
-                                "use": "WP"
-                            },
-                            "streetAddressLine": {
-                                "_text": "3801 W 15th Street"
-                            },
-                            "city": {
-                                "_text": "PLANO"
-                            },
-                            "state": {
-                                "_text": "TX"
-                            },
-                            "postalCode": {
-                                "_text": "75075-7767"
-                            },
-                            "country": {
-                                "_text": "US"
-                            }
-                        },
-                        "telecom": {
-                            "_attributes": {
-                                "use": "WP",
-                                "value": "tel: (972) 985-8838"
-                            }
-                        },
-                        "assignedPerson": {
-                            "name": {
-                                "given": {
-                                    "_text": "Timothy"
-                                },
-                                "family": {
-                                    "_text": "Dao"
                                 }
                             }
                         }
