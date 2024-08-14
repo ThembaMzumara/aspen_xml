@@ -94,16 +94,16 @@ const
 
 try {
     const
-    jsonData = xml2js.xml2json( fs.readFileSync('HealthDataSample.xml', 'utf-8'), {compact: true, spaces: 4}),
-    // jsonData = xml2js.xml2json( fs.readFileSync('./xmlBits/ComponentO.xml', 'utf-8'), {compact: true, spaces: 4}),
+    // jsonData = xml2js.xml2json( fs.readFileSync('HealthDataSample.xml', 'utf-8'), {compact: true, spaces: 4}),
+    jsonData = xml2js.xml2json( fs.readFileSync('./xmlBits/ComponentB.xml', 'utf-8'), {compact: true, spaces: 4}),
     tableData = extractTables(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ))
     searchKeyData = findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'patient' ),
     filteredData = filteredObject(tableData, ['_attributes']);
 
     fs.writeFileSync('OutputJsonData.json', jsonData, 'utf-8')
     fs.writeFileSync('OutputTableData.js', JSON.stringify(tableData, null, 2))     
-    fs.writeFileSync('SearchKeyOutput.json', JSON.stringify(searchKeyData))
-    fs.writeFileSync('filteredObject.json', JSON.stringify(filteredData))
+    fs.writeFileSync('SearchKeyOutput.json', JSON.stringify(searchKeyData, null, 2))
+    fs.writeFileSync('filteredObject.json', JSON.stringify(filteredData, null, 2))
 
 } catch (error) { 
     console.log(error)
