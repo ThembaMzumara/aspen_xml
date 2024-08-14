@@ -31,7 +31,7 @@ const
         }
         return result;
     },
-    extractTables = jsonObj => {
+    extractTables = (jsonObj) => {
         let tables = [];
     
         function traverse(obj) {
@@ -69,18 +69,42 @@ const
     
         traverse(jsonObj);
         return found
+    },
+    filteredObject = (jsonObj, filter) => {
+        function traverseAndFilter(jsonObj) {
+            let filteredObj = Array.isArray(jsonObj) ? [] : {};
+    
+            for (let key in jsonObj) {
+                if (jsonObj.hasOwnProperty(key)) {
+                    if (!filter.includes(key)) {
+                        if (typeof jsonObj[key] === 'object' && jsonObj[key] !== null) {
+                            filteredObj[key] = traverseAndFilter(jsonObj[key]);
+                        } else {
+                            filteredObj[key] = jsonObj[key];
+                        }
+                    }
+                }
+            }
+    
+            return filteredObj;
+        }
+    
+        return traverseAndFilter(jsonObj);
     };
 
 try {
     const
     jsonData = xml2js.xml2json( fs.readFileSync('HealthDataSample.xml', 'utf-8'), {compact: true, spaces: 4}),
-    // jsonData = xml2js.xml2json( fs.readFileSync('./xmlBits/ComponentE.xml', 'utf-8'), {compact: true, spaces: 4}),
+    // jsonData = xml2js.xml2json( fs.readFileSync('./xmlBits/ComponentO.xml', 'utf-8'), {compact: true, spaces: 4}),
     tableData = extractTables(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ))
-    searchKeyData = findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'name' );
+    searchKeyData = findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'patient' ),
+    filteredData = filteredObject(tableData, ['_attributes']);
 
-    fs.writeFileSync('OutputJsonData.json', jsonData, 'utf-8');
-    fs.writeFileSync('SearchKeyOutput.json', JSON.stringify(searchKeyData));
-    fs.writeFileSync('OutputTableData.js', JSON.stringify(tableData, null, 2));     
+    fs.writeFileSync('OutputJsonData.json', jsonData, 'utf-8')
+    fs.writeFileSync('OutputTableData.js', JSON.stringify(tableData, null, 2))     
+    fs.writeFileSync('SearchKeyOutput.json', JSON.stringify(searchKeyData))
+    fs.writeFileSync('filteredObject.json', JSON.stringify(filteredData))
+
 } catch (error) { 
     console.log(error)
 }
