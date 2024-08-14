@@ -16,7 +16,7 @@
     <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
     <languageCode code="en-US" />
     
-    <recordTarget>
+    <!-- <recordTarget>
         <patientRole>
             <id extension="748141" root="2.16.840.1.113883.3.564.14273" />
             <id extension="444465374" root="2.16.840.1.113883.4.1" />
@@ -60,7 +60,7 @@
                 </addr>
             </providerOrganization>
         </patientRole>
-    </recordTarget>
+    </recordTarget> -->
 
     <!-- <author>
         <time value="20240510154357-0500" />
@@ -91,7 +91,7 @@
                 </addr>
             </representedOrganization>
         </assignedAuthor>
-    </author>
+    </author> -->
 
     <custodian>
         <assignedCustodian>
@@ -110,7 +110,7 @@
         </assignedCustodian>
     </custodian>
 
-    <legalAuthenticator>
+    <!-- <legalAuthenticator>
         <time value="20240510154354-0400" />
         <signatureCode code="S" />
         <assignedEntity>
@@ -132,9 +132,9 @@
                 </name>
             </assignedPerson>
         </assignedEntity>
-    </legalAuthenticator>
+    </legalAuthenticator> -->
 
-    <documentationOf>
+    <!-- <documentationOf>
         <serviceEvent classCode="PCPR">
             <effectiveTime>
                 <low value="20240510" />
@@ -289,9 +289,9 @@
                 </assignedEntity>
             </performer>
         </serviceEvent>
-    </documentationOf>
+    </documentationOf> -->
 
-    <componentOf>
+    <!-- <componentOf>
         <encompassingEncounter>
             <id extension="5291565" root="2.16.840.1.113883.19" />
             <effectiveTime value="20240510" />

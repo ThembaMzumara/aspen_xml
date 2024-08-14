@@ -37,7 +37,7 @@ const
         function traverse(obj) {
             for (let key in obj) {
                 if (obj.hasOwnProperty(key)) {
-                    if (key === 'thead' || key === 'tbody') {
+                    if (key === 'thead') {
                         tables.push({ [key]: obj[key] });
                     }
     
@@ -94,14 +94,13 @@ const
 
 try {
     const
-    // jsonData = xml2js.xml2json( fs.readFileSync('HealthDataSample.xml', 'utf-8'), {compact: true, spaces: 4}),
-    jsonData = xml2js.xml2json( fs.readFileSync('./xmlBits/ComponentB.xml', 'utf-8'), {compact: true, spaces: 4}),
+    jsonData = xml2js.xml2json( fs.readFileSync('aspen_ccd3.xml', 'utf-8'), {compact: true, spaces: 4}),
     tableData = extractTables(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ))
     searchKeyData = findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'patient' ),
-    filteredData = filteredObject(tableData, ['_attributes']);
+    filteredData = filteredObject(searchKeyData, ['_attributes', 'styleCode', 'content', 'code', 'codeSystem']);
 
     fs.writeFileSync('OutputJsonData.json', jsonData, 'utf-8')
-    fs.writeFileSync('OutputTableData.js', JSON.stringify(tableData, null, 2))     
+    fs.writeFileSync('OutputTableData.json', JSON.stringify(tableData, null, 2))     
     fs.writeFileSync('SearchKeyOutput.json', JSON.stringify(searchKeyData, null, 2))
     fs.writeFileSync('filteredObject.json', JSON.stringify(filteredData, null, 2))
 
