@@ -37,7 +37,7 @@ const
         function traverse(obj) {
             for (let key in obj) {
                 if (obj.hasOwnProperty(key)) {
-                    if (key === 'thead') {
+                    if (key === 'th') {
                         tables.push({ [key]: obj[key] });
                     }
     
@@ -94,10 +94,10 @@ const
 
 try {
     const
-    jsonData = xml2js.xml2json( fs.readFileSync('aspen_ccd3.xml', 'utf-8'), {compact: true, spaces: 4}),
-    tableData = extractTables(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ))
-    searchKeyData = findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'patient' ),
-    filteredData = filteredObject(searchKeyData, ['_attributes', 'styleCode', 'content', 'code', 'codeSystem']);
+        jsonData = xml2js.xml2json( fs.readFileSync('aspen_ccd3.xml', 'utf-8'), {compact: true, spaces: 4}),
+        tableData = extractTables(JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ))
+        searchKeyData = findSearchKey( JSON.parse( fs.readFileSync('OutputJsonData.json', 'utf-8') ), 'patient' ),
+        filteredData = filteredObject(searchKeyData, ['_attributes', 'styleCode', 'content', 'code', 'codeSystem', '_text']);
 
     fs.writeFileSync('OutputJsonData.json', jsonData, 'utf-8')
     fs.writeFileSync('OutputTableData.json', JSON.stringify(tableData, null, 2))     

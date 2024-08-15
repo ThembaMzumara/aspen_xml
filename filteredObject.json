@@ -2,12 +2,8 @@
   {
     "patient": {
       "name": {
-        "given": {
-          "_text": "Ann"
-        },
-        "family": {
-          "_text": "McCaskill"
-        }
+        "given": {},
+        "family": {}
       },
       "administrativeGenderCode": {},
       "birthTime": {},
