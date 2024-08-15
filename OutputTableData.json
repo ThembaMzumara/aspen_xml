@@ -1,332 +1,3484 @@
 [
   {
-    "th": [
-      {
-        "_text": "Encounter Date"
-      },
-      {
-        "_text": "Assessment Date"
-      },
-      {
-        "_text": "Assessment"
-      },
-      {
-        "_text": "LastModified by"
-      },
-      {
-        "_text": "Organization Details"
-      },
-      {
-        "_text": "LastModified Time"
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Encounter Date"
+          },
+          {
+            "_text": "Assessment Date"
+          },
+          {
+            "_text": "Assessment"
+          },
+          {
+            "_text": "LastModified by"
+          },
+          {
+            "_text": "Organization Details"
+          },
+          {
+            "_text": "LastModified Time"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Reminders"
-      },
-      {},
-      {
-        "_text": "Order Date"
-      },
-      {
-        "_text": "Submit Date"
-      },
-      {
-        "_text": "Provider"
-      },
-      {
-        "_text": "Last Modified By"
-      },
-      {
-        "_text": "Organization Details"
-      },
-      {
-        "_text": "Last Modified Time"
-      },
-      {
-        "_text": "Details"
+    "tbody": {
+      "tr": {
+        "td": [
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "05/09/2024"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "05/09/2024"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": " 90F PMH HTN, HLD, vascular insufficiency. Primary concern his blood pressure, which is elevated in the 140s. Has intermittent ED presentations for elevated blood pressure, last time in January. We will increase clonidine patch as she is maxed out on her other therapies of losartan and nifedipine. Tolerating clonidine well. "
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "nhoeting"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "Not available"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "05/10/2024 15:45:06"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Created Date"
-      },
-      {
-        "_text": "Observation Date"
-      },
-      {
-        "_text": "Name"
-      },
-      {
-        "_text": "Description"
-      },
-      {
-        "_text": "Value"
-      },
-      {
-        "_text": "Unit"
-      },
-      {
-        "_text": "Range"
-      },
-      {
-        "_text": "Abnormal Flag"
-      },
-      {
-        "_text": "LastModifiedBy"
-      },
-      {
-        "_text": "Organization Detail"
-      },
-      {
-        "_text": "LastModifiedTime"
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Reminders"
+          },
+          {},
+          {
+            "_text": "Order Date"
+          },
+          {
+            "_text": "Submit Date"
+          },
+          {
+            "_text": "Provider"
+          },
+          {
+            "_text": "Last Modified By"
+          },
+          {
+            "_text": "Organization Details"
+          },
+          {
+            "_text": "Last Modified Time"
+          },
+          {
+            "_text": "Details"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Snomed Code"
-      },
-      {
-        "_text": "Name"
-      },
-      {
-        "_text": "Status"
-      },
-      {
-        "_text": "Last Modified Date"
-      },
-      {
-        "_text": "Onset Date"
-      },
-      {
-        "_text": "Resolution Date"
-      },
-      {
-        "_text": "Laterality"
-      },
-      {
-        "_text": "Problem Type"
-      },
-      {
-        "_text": "ICD-10-CM Code"
-      },
-      {
-        "_text": "Notes"
-      }
-    ]
+    "tbody": {
+      "tr": [
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Appointments"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "PlanOfCareAct1"
+                },
+                "_text": "Est Pt 15"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 07/09/2024 11:00AM "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Natalie Hoeting, MD"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Lab"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " None recorded. "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Referral"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " None recorded. "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Procedures"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " None recorded. "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Surgeries"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " None recorded. "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Imaging"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "PlanOfCareAct2"
+                },
+                "_text": "electrocardiogram"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "jnguyen299"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " North Arlington, 902 W Randol Mill Road, Suite 200, Arlington, TX, 76012-2581, Ph (817) 461-3003"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024 16:02:41"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Medication Orders"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "PlanOfCareAct3"
+                },
+                "_text": "losartan 50 mg tablet"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "ATHENA"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " CVS/Pharmacy #6975, 506 North Fielder Plaza, Arlington, TX, 76012, Ph (817) 274-1696"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024 15:53:57"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "PlanOfCareAct4"
+                },
+                "_text": "clonidine 0.2 mg/24 hr weekly transdermal patch"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "ATHENA"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " CVS/Pharmacy #6975, 506 North Fielder Plaza, Arlington, TX, 76012, Ph (817) 274-1696"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024 15:53:58"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "PlanOfCareAct5"
+                },
+                "_text": "nifedipine ER 60 mg tablet,extended release 24 hr"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "ATHENA"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " CVS/Pharmacy #6975, 506 North Fielder Plaza, Arlington, TX, 76012, Ph (817) 274-1696"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024 15:53:57"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "PlanOfCareAct6"
+                },
+                "_text": "pravastatin 40 mg tablet"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "ATHENA"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " CVS/Pharmacy #6975, 506 North Fielder Plaza, Arlington, TX, 76012, Ph (817) 274-1696"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024 15:53:56"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Date"
-      },
-      {
-        "_text": "Name"
-      },
-      {
-        "_text": "Laterality"
-      },
-      {
-        "_text": "Status"
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Created Date"
+          },
+          {
+            "_text": "Observation Date"
+          },
+          {
+            "_text": "Name"
+          },
+          {
+            "_text": "Description"
+          },
+          {
+            "_text": "Value"
+          },
+          {
+            "_text": "Unit"
+          },
+          {
+            "_text": "Range"
+          },
+          {
+            "_text": "Abnormal Flag"
+          },
+          {
+            "_text": "LastModifiedBy"
+          },
+          {
+            "_text": "Organization Detail"
+          },
+          {
+            "_text": "LastModifiedTime"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Imaging Date"
-      },
-      {
-        "_text": "Name"
-      },
-      {
-        "_text": "Performed by"
-      },
-      {
-        "_text": "Status"
-      }
-    ]
+    "tbody": {
+      "tr": [
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "12/12/2022"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "US, echocardiogram, transthoracic, complete"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32308624"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024 11:37:32"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "01/22/2021"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "US, echocardiogram, transthoracic, complete"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32314712"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024 11:37:48"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "01/25/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "electrocardiogram"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32314723"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024 11:38:03"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "01/04/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "electrocardiogram"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32314740"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024 11:38:20"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/06/2017"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "nuclear stress test"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32314764"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024 11:39:11"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/07/2017"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "venous study, lower extremity, complete"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32314780"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/26/2024 11:39:53"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/29/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/10/2022"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "CT, chest, w/ contrast"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32359867"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/30/2024 12:09:43"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/30/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "01/16/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "electrocardiogram"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32368452"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "abrahmer"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "04/30/2024 16:38:38"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "electrocardiogram"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32509232"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "jnguyen299"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " North Arlington 902 W Randol Mill Road Suite 200, Arlington, TX, 76012-2581, Ph (817) 461-3003 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024 14:57:01"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "US, echocardiogram, transthoracic, complete"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "result32510282"
+                },
+                "_text": " No observation recorded. "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "kmurray174"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/10/2024 14:11:31"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Name"
-      },
-      {
-        "_text": "Sig"
-      },
-      {
-        "_text": "Start Date"
-      },
-      {
-        "_text": "Stop Date"
-      },
-      {
-        "_text": "Status"
-      },
-      {
-        "_text": "Note"
-      },
-      {
-        "_text": "LastModified by"
-      },
-      {
-        "_text": "Organization Details"
-      },
-      {
-        "_text": "LastModified Time"
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Snomed Code"
+          },
+          {
+            "_text": "Name"
+          },
+          {
+            "_text": "Status"
+          },
+          {
+            "_text": "Last Modified Date"
+          },
+          {
+            "_text": "Onset Date"
+          },
+          {
+            "_text": "Resolution Date"
+          },
+          {
+            "_text": "Laterality"
+          },
+          {
+            "_text": "Problem Type"
+          },
+          {
+            "_text": "ICD-10-CM Code"
+          },
+          {
+            "_text": "Notes"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Date Recorded"
-      },
-      {
-        "_text": "Body height"
-      },
-      {
-        "_text": "Body weight"
-      },
-      {
-        "_text": "Body mass index (BMI) [Ratio]"
-      },
-      {
-        "_text": "Diastolic blood pressure"
-      },
-      {
-        "_text": "Systolic blood pressure"
-      },
-      {
-        "_text": "Pulse rate"
-      },
-      {
-        "_text": "Oxygen saturation in Arterial blood by Pulse oximetry"
-      },
-      {
-        "_text": "Body surface area Derived from formula"
-      }
-    ]
+    "tbody": {
+      "tr": [
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "55822004"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Hyperlipidemia"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "CHRONIC"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "E78.5"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "59621000"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Essential hypertension"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "CHRONIC"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "I10"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "86341008"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Vascular insufficiency"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "CHRONIC"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "I99.8"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Question"
-      },
-      {
-        "_text": "Answer"
-      },
-      {
-        "_text": "Notes"
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Date"
+          },
+          {
+            "_text": "Name"
+          },
+          {
+            "_text": "Laterality"
+          },
+          {
+            "_text": "Status"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Relationship"
-      },
-      {
-        "_text": "Description"
-      },
-      {
-        "_text": "Onset Age"
-      },
-      {
-        "_text": "Died of this Age"
-      },
-      {
-        "_text": "Resolved Age"
-      },
-      {
-        "_text": "Notes"
+    "tbody": {
+      "tr": {
+        "td": [
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "05/09/2024"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "Proc1"
+              },
+              "_text": "Echocardiogram, complete (93306)"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "completed"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Encounter Date"
-      },
-      {
-        "_text": "Diagnosis Name"
-      },
-      {
-        "_text": "Diagnosis SNOMED-CT Code"
-      },
-      {
-        "_text": "Diagnosis ICD Codes"
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Imaging Date"
+          },
+          {
+            "_text": "Name"
+          },
+          {
+            "_text": "Performed by"
+          },
+          {
+            "_text": "Status"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Related Observation"
-      },
-      {
-        "_text": "LastModified by"
-      },
-      {
-        "_text": "Organization Details"
-      },
-      {
-        "_text": "LastModified Time"
+    "tbody": {
+      "tr": {
+        "td": [
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": " 05/09/2024 "
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "ProcImg32509232"
+              },
+              "_text": "electrocardiogram"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "completed"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Concern"
-      },
-      {
-        "_text": "Status"
-      },
-      {
-        "_text": "LastModified by"
-      },
-      {
-        "_text": "Organization Details"
-      },
-      {
-        "_text": "LastModified Time"
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Name"
+          },
+          {
+            "_text": "Sig"
+          },
+          {
+            "_text": "Start Date"
+          },
+          {
+            "_text": "Stop Date"
+          },
+          {
+            "_text": "Status"
+          },
+          {
+            "_text": "Note"
+          },
+          {
+            "_text": "LastModified by"
+          },
+          {
+            "_text": "Organization Details"
+          },
+          {
+            "_text": "LastModified Time"
+          }
+        ]
       }
-    ]
+    }
   },
   {
-    "th": [
-      {
-        "_text": "Encounter Date"
-      },
-      {
-        "_text": "Sequence"
-      },
-      {
-        "_text": "Insurance Name"
-      },
-      {
-        "_text": "Policy Number"
-      },
-      {
-        "_text": "Policy Holder"
-      },
-      {
-        "_text": "Covered Member ID"
-      },
-      {
-        "_text": "Holder Member ID"
-      },
-      {
-        "_text": "Guarantor Name"
+    "tbody": {
+      "tr": [
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-bd313036-84ef-4a81-917e-fe14fcc6e8cf"
+                },
+                "_text": " losartan 50 mg tablet "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-bd313036-84ef-4a81-917e-fe14fcc6e8cf"
+                },
+                "_text": "Take 1 tablet twice a day by oral route."
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-a93104ac-a23c-4a41-92db-04a1f9e4a579"
+                },
+                "_text": " nifedipine ER 30 mg tablet,extended release 24 hr "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-a93104ac-a23c-4a41-92db-04a1f9e4a579"
+                },
+                "_text": "TAKE 2 TABLETS (60 MG TOTAL) BY MOUTH TWO(2) TIMES DAILY"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "completed"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "NotAvailable"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-d79d44a7-e134-4e1a-9482-fed51845951c"
+                },
+                "_text": " acetaminophen 325 mg tablet "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-d79d44a7-e134-4e1a-9482-fed51845951c"
+                },
+                "_text": "TAKE 2 TABLETS (650 MG TOTAL) BY MOUTH EVERY FOUR(4) HOURS AS NEEDED FOR PAIN"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "completed"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-002724f5-3fb5-44d9-a675-52405ce2ff22"
+                },
+                "_text": " clonidine 0.1 mg/24 hr weekly transdermal patch "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-002724f5-3fb5-44d9-a675-52405ce2ff22"
+                },
+                "_text": "Apply 1 patch every week by transdermal route."
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "completed"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-ba01c281-ac8d-4bf6-abff-44044c72b527"
+                },
+                "_text": " azithromycin 250 mg tablet "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-ba01c281-ac8d-4bf6-abff-44044c72b527"
+                },
+                "_text": "TAKE 2 TABLETS BY MOUTH TODAY, THEN TAKE 1 TABLET DAILY FOR 4 DAYS AS DIRECTED"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "completed"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-23cf7647-1673-4a7d-ba34-4b7b4583afad"
+                },
+                "_text": " clonidine 0.2 mg/24 hr weekly transdermal patch "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-23cf7647-1673-4a7d-ba34-4b7b4583afad"
+                },
+                "_text": "Apply 1 patch every week by transdermal route."
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-4847f0d7-82a3-4944-b7b6-b1ec2bbb8384"
+                },
+                "_text": " pravastatin 40 mg tablet "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-4847f0d7-82a3-4944-b7b6-b1ec2bbb8384"
+                },
+                "_text": "Take 1 tablet every day by oral route."
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-8deace15-10d1-4e96-92cf-2e85eaa513e4"
+                },
+                "_text": " verapamil ER (SR) 180 mg tablet,extended release "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-8deace15-10d1-4e96-92cf-2e85eaa513e4"
+                },
+                "_text": "TAKE 2 TABLETS BY MOUTH EVERY DAY FOR 90 DAYS"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "completed"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-d311d10f-2cad-4328-ab35-49b9cddeed0a"
+                },
+                "_text": " ciprofloxacin 250 mg tablet "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-d311d10f-2cad-4328-ab35-49b9cddeed0a"
+                },
+                "_text": "TAKE 1 TABLET BY MOUTH TWICE A DAY"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "completed"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-99e4cf32-ad2b-4e26-b322-0bef11c410a7"
+                },
+                "_text": " aspirin 81 mg tablet,delayed release "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-99e4cf32-ad2b-4e26-b322-0bef11c410a7"
+                },
+                "_text": "TAKE 1 TABLET BY MOUTH EVERY DAY"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "completed"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-4a52a947-24e4-4609-95cc-dbce3b063ed4"
+                },
+                "_text": " nifedipine ER 60 mg tablet,extended release 24 hr "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-4a52a947-24e4-4609-95cc-dbce3b063ed4"
+                },
+                "_text": "Take 1 tablet twice a day by oral route."
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-2208f5e0-03dd-4ebe-930d-c069ad820723"
+                },
+                "_text": " losartan 25 mg tablet "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-2208f5e0-03dd-4ebe-930d-c069ad820723"
+                },
+                "_text": "TAKE 2 TABLET BY MOUTH in the morning and 2 in the pm"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-e7931d3c-eafe-4fd3-b167-7d8d65d90566"
+                },
+                "_text": " furosemide 20 mg tablet "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-e7931d3c-eafe-4fd3-b167-7d8d65d90566"
+                },
+                "_text": "ONE TABLET AS NEEDED TO KEEP MORNING WEIGHT UNDER 120 POUNDS 90 DAYS"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Name-8c3ec368-94aa-49c9-b0ab-248a7a21755f"
+                },
+                "_text": " nifedipine ER 60 mg tablet,extended release "
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "content": {
+                "_attributes": {
+                  "ID": "Med-Sig-8c3ec368-94aa-49c9-b0ab-248a7a21755f"
+                },
+                "_text": "TAKE 1 TABLET BY MOUTH in the morning and 1 at night"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "active"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Not Available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Date Recorded"
+          },
+          {
+            "_text": "Body height"
+          },
+          {
+            "_text": "Body weight"
+          },
+          {
+            "_text": "Body mass index (BMI) [Ratio]"
+          },
+          {
+            "_text": "Diastolic blood pressure"
+          },
+          {
+            "_text": "Systolic blood pressure"
+          },
+          {
+            "_text": "Pulse rate"
+          },
+          {
+            "_text": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "_text": "Body surface area Derived from formula"
+          }
+        ]
       }
-    ]
+    }
+  },
+  {
+    "tbody": {
+      "tr": {
+        "td": [
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "2024-05-09"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040748"
+              },
+              "_text": "152.4 cm"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040752"
+              },
+              "_text": "52616.71 g"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040751"
+              },
+              "_text": "22.7 kg/m2"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040755"
+              },
+              "_text": "55 mm[Hg]"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040754"
+              },
+              "_text": "117 mm[Hg]"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040756"
+              },
+              "_text": "75 /min"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040757"
+              },
+              "_text": "99 %"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "vit28040750"
+              },
+              "_text": "1.49 m2"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Question"
+          },
+          {
+            "_text": "Answer"
+          },
+          {
+            "_text": "Notes"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "tbody": {
+      "tr": [
+        {
+          "td": [
+            {
+              "content": {
+                "_attributes": {
+                  "styleCode": "Bold"
+                },
+                "_text": "Smoking Status"
+              }
+            },
+            {
+              "_text": "Never Smoker (Never)"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Caffeine Type?"
+              }
+            },
+            {
+              "_text": "Coffee"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Caffeine Type 2?"
+              }
+            },
+            {
+              "_text": "Tea"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Caffeine Amount 2?"
+              }
+            },
+            {
+              "_text": "1 Cup"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Caffeine Frequency?"
+              }
+            },
+            {
+              "_text": "Daily"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Caffeine Frequency 2?"
+              }
+            },
+            {
+              "_text": "Weekly"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Alcohol Use?"
+              }
+            },
+            {
+              "_text": "No"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Caffeine Use?"
+              }
+            },
+            {
+              "_text": "Yes"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Drug Use?"
+              }
+            },
+            {
+              "_text": "No"
+            },
+            {}
+          ]
+        },
+        {
+          "td": [
+            {
+              "content": {
+                "_text": "Caffeine Amount?"
+              }
+            },
+            {
+              "_text": "1 Cup"
+            },
+            {}
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tbody": {
+      "tr": {
+        "td": {
+          "_attributes": {
+            "ID": "BirthSexInfo"
+          },
+          "content": {
+            "_attributes": {
+              "styleCode": "Bold"
+            },
+            "_text": "Birth Sex: Unknown"
+          }
+        }
+      }
+    }
+  },
+  {
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Relationship"
+          },
+          {
+            "_text": "Description"
+          },
+          {
+            "_text": "Onset Age"
+          },
+          {
+            "_text": "Died of this Age"
+          },
+          {
+            "_text": "Resolved Age"
+          },
+          {
+            "_text": "Notes"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "tbody": {
+      "tr": {
+        "td": [
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "Father"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "_text": "Myocardial infarction"
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            }
+          },
+          {
+            "_attributes": {
+              "styleCode": "Botrule"
+            },
+            "content": {
+              "_attributes": {
+                "ID": "famhistnote1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Encounter Date"
+          },
+          {
+            "_text": "Diagnosis Name"
+          },
+          {
+            "_text": "Diagnosis SNOMED-CT Code"
+          },
+          {
+            "_text": "Diagnosis ICD Codes"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "tbody": {
+      "tr": [
+        {
+          "td": [
+            {
+              "_text": " 05/09/2024 Natalie Hoeting, TX - HeartPlace, North Arlington: 902 W Randol Mill Road Suite 200 , ARLINGTON, TX 76012-2581, Ph. (817) 461-3003 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Essential hypertension"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "59621000"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " I10 "
+            }
+          ]
+        },
+        {
+          "td": [
+            {},
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Hyperlipidemia"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "55822004"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " E78.5 "
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Vascular insufficiency"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "86341008"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " I99.8 "
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " 05/09/2024 Natalie Hoeting, TX - HeartPlace, North Arlington: 902 W Randol Mill Road Suite 200 , ARLINGTON, TX 76012-2581, Ph. (817) 461-3003 "
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Coronary arteriosclerosis"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "53741008"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": " I25.10 "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Related Observation"
+          },
+          {
+            "_text": "LastModified by"
+          },
+          {
+            "_text": "Organization Details"
+          },
+          {
+            "_text": "LastModified Time"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "tbody": {
+      "tr": {
+        "td": {
+          "_text": "None Recorded"
+        }
+      }
+    }
+  },
+  {
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Concern"
+          },
+          {
+            "_text": "Status"
+          },
+          {
+            "_text": "LastModified by"
+          },
+          {
+            "_text": "Organization Details"
+          },
+          {
+            "_text": "LastModified Time"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "tbody": {
+      "tr": {
+        "td": [
+          {
+            "_text": "None Recorded"
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "thead": {
+      "tr": {
+        "th": [
+          {
+            "_text": "Encounter Date"
+          },
+          {
+            "_text": "Sequence"
+          },
+          {
+            "_text": "Insurance Name"
+          },
+          {
+            "_text": "Policy Number"
+          },
+          {
+            "_text": "Policy Holder"
+          },
+          {
+            "_text": "Covered Member ID"
+          },
+          {
+            "_text": "Holder Member ID"
+          },
+          {
+            "_text": "Guarantor Name"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "tbody": {
+      "tr": [
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "1"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "MEDICARE B-TX: NOVITAS SOLUTIONS"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Ann R McCaskill"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "3PW3T51DW02"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Ann McCaskill"
+            }
+          ]
+        },
+        {
+          "td": [
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "05/09/2024"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "2"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "AETNA (MEDICARE SUPPLEMENT)"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Ann McCaskill"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "ACC6479959"
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              }
+            },
+            {
+              "_attributes": {
+                "styleCode": "Botrule"
+              },
+              "_text": "Ann McCaskill"
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
